@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>57D2E5EC-47D4-4675-957B-17B63703EC14</string>
+	<key>IDESourceControlProjectName</key>
+	<string>projectlib</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DCB834EA-DDC9-4863-902C-5A6D266AC333</key>
+		<string>http://svn.qcdn.net:8080/svn/QCDN</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PMS/IOS/projectlib/projectlib.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCB834EA-DDC9-4863-902C-5A6D266AC333</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>DCB834EA-DDC9-4863-902C-5A6D266AC333</key>
+		<string>http://svn.qcdn.net:8080/svn/QCDN</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.qcdn.net:8080/svn/QCDN/PMS/IOS/projectlib/projectlib.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCB834EA-DDC9-4863-902C-5A6D266AC333</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCB834EA-DDC9-4863-902C-5A6D266AC333</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVN_QCDN</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+
+target ‘oc_lib’ do
+
+  pod 'UITableView+FDTemplateLayoutCell', '~> 1.3’
+  
+  #网络请求
+  pod 'AFNetworking', '~> 2.0'
+  
+  #json model
+  pod 'MJExtension'
+
+   #动态更新
+  pod 'JSPatch'
+  
+  #ReactiveCocoa
+  pod 'ReactiveCocoa'
+  
+  #日志
+  pod 'CocoaLumberjack', '~> 2.2.0'
+  
+  
+  #蒲公英更新提醒 上线后去掉
+  pod 'PgyUpdate'
+  
+end
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>api_url</key>
+	<string></string>
+	<key>api_pic_url</key>
+	<string></string>
+	<key>api_share_url</key>
+	<string></string>
+	<key>api_share_product_url</key>
+	<string>prod.aspx?id=</string>
+	<key>api_share_photo_url</key>
+	<string>pic.aspx?id=</string>
+	<key>api_share_sales_url</key>
+	<string>promot.aspx?id=</string>
+	<key>api_key</key>
+	<string></string>
+	<key>api_version</key>
+	<string>1.0</string>
+	<key>brand_id</key>
+	<string>2</string>
+	<key>brand_name</key>
+	<string>奇戈摄影</string>
+	<key>sina_app_key</key>
+	<string></string>
+	<key>wx_app_id</key>
+	<string></string>
+	<key>qq_app_key</key>
+	<string></string>
+	<key>um_app_key</key>
+	<string></string>
+</dict>
+</plist>

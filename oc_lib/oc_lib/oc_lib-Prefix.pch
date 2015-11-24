@@ -1,0 +1,72 @@
+//
+// Prefix header for all source files of the 'iTotemMinFramework' target in the 'iTotemMinFramework' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifndef DEBUG
+#undef NSLog
+#define NSLog(args, ...)
+#endif
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MapKit/MapKit.h>
+    #import <CocoaLumberjack/CocoaLumberjack.h>
+#if DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif
+
+    #import "MJRefresh.h"
+
+    #import "MMDrawerController.h"
+    #import "MMDrawerVisualState.h"
+    #import "MMExampleDrawerVisualStateManager.h"
+    #import "UIViewController+MMDrawerController.h"
+    #import <QuartzCore/QuartzCore.h>
+
+
+
+    #import "AliPayManager.h"
+    #import "PageModel.h"
+
+//宏文件
+    #import "MacroHeader.h"
+    #import "ARCSingleton.h"
+
+
+//请求
+    #import "HTTPNetworking.h"
+    #import "UIImageView+AFNetworking.h"
+    #import "UIImageView+Networking.h"
+    #import "MJExtension.h"
+    #import "JPEngine.h"
+
+//类别文件
+    #import "CategoriesHeader.h"
+    #import "BDKNotifyHUD.h"
+
+
+//助手头文件
+    #import "HelperHeader.h"
+    #import "DataEnvironment.h"
+    #import "AccountHelper.h"
+
+//views
+    #import "ExpandFrameView.h"
+    #import "MessageAlertView.h"
+    #import "APpActionSheet.h"
+    #import "ShareView.h"
+
+
+
+
+#endif
