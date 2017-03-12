@@ -17,6 +17,6 @@
 
 
 + (NSOperationQueue *)af_sharedImageRequestOperationQueue;
-- (AFHTTPRequestOperation *)af_imageRequestOperation;
+//- (AFHTTPRequestOperation *)af_imageRequestOperation;
 
 @end

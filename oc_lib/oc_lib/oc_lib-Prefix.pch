@@ -48,7 +48,7 @@ static const DDLogLevel ddLogLevel = DDLogLevelWarning;
     #import "UIImageView+AFNetworking.h"
     #import "UIImageView+Networking.h"
     #import "MJExtension.h"
-    #import "JPEngine.h"
+    //#import "JPEngine.h"
 
 //类别文件
     #import "CategoriesHeader.h"

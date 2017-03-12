@@ -19,9 +19,9 @@
 		04A8FDBE19B44D6E003B8036 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A8FDBD19B44D6E003B8036 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		04A8FDCA19B44FA2003B8036 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A8FDC919B44FA2003B8036 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		04A8FDCF19B46048003B8036 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A8FDCE19B46048003B8036 /* TencentOpenApi_IOS_Bundle.bundle */; };
-		25F786C06D173869FDA436CB /* libPods-oc_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C6C593D0EBD0666FF9C4E2 /* libPods-oc_lib.a */; };
 		293911D018114AA700FE7684 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293911CF18114AA700FE7684 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9107E2031AB19EBE00DD8FB7 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9107E2021AB19EBE00DD8FB7 /* AlipaySDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		911BEC8D1E754616002134F8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911BEC8C1E754616002134F8 /* Storyboard.storyboard */; };
 		9130EE6519F392CC0009BB08 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9107CCF419F3929B00ACC4C0 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9130EE6719F392F90009BB08 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9130EE6619F392F90009BB08 /* CoreText.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		91335F031C042AD400E14EF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D491C042AD300E14EF5 /* AppDelegate.m */; };
@@ -37,7 +37,6 @@
 		91335F0D1C042AD400E14EF5 /* HTTPWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D631C042AD300E14EF5 /* HTTPWorker.m */; };
 		91335F0E1C042AD400E14EF5 /* NSOperation+Identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D651C042AD300E14EF5 /* NSOperation+Identifier.m */; };
 		91335F0F1C042AD400E14EF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91335D661C042AD300E14EF5 /* LaunchScreen.xib */; };
-		91335F101C042AD400E14EF5 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 91335D6E1C042AD300E14EF5 /* main.js */; };
 		91335F111C042AD400E14EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D6F1C042AD300E14EF5 /* main.m */; };
 		91335F121C042AD400E14EF5 /* BaseModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D721C042AD300E14EF5 /* BaseModelObject.m */; };
 		91335F131C042AD400E14EF5 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D741C042AD300E14EF5 /* DemoModel.m */; };
@@ -47,132 +46,10 @@
 		91335F171C042AD400E14EF5 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D7C1C042AD300E14EF5 /* UserModel.m */; };
 		91335F181C042AD400E14EF5 /* VerinfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D7E1C042AD300E14EF5 /* VerinfoModel.m */; };
 		91335F191C042AD400E14EF5 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335D801C042AD300E14EF5 /* Weather.m */; };
-		91335F1A1C042AD400E14EF5 /* oc_lib-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91335D821C042AD300E14EF5 /* oc_lib-Info.plist */; };
 		91335F1B1C042AD400E14EF5 /* pms_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91335D841C042AD300E14EF5 /* pms_config.plist */; };
 		91335F1C1C042AD400E14EF5 /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91335D851C042AD300E14EF5 /* PushConfig.plist */; };
 		91335F1D1C042AD400E14EF5 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 91335D861C042AD300E14EF5 /* readme.txt */; };
 		91335F1E1C042AD400E14EF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91335D881C042AD300E14EF5 /* Images.xcassets */; };
-		91335F1F1C042AD400E14EF5 /* 00启动页1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D8A1C042AD300E14EF5 /* 00启动页1136.png */; };
-		91335F201C042AD400E14EF5 /* 00启动页960.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D8B1C042AD300E14EF5 /* 00启动页960.png */; };
-		91335F211C042AD400E14EF5 /* 01-首页1-1默认.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D8C1C042AD300E14EF5 /* 01-首页1-1默认.png */; };
-		91335F221C042AD400E14EF5 /* 01-首页1-1默认1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D8D1C042AD300E14EF5 /* 01-首页1-1默认1.png */; };
-		91335F231C042AD400E14EF5 /* 01-首页1-2侧边栏.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D8E1C042AD300E14EF5 /* 01-首页1-2侧边栏.png */; };
-		91335F241C042AD400E14EF5 /* 01-首页1-2侧边栏1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D8F1C042AD300E14EF5 /* 01-首页1-2侧边栏1.png */; };
-		91335F251C042AD400E14EF5 /* 01-首页1-3退出登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D901C042AD300E14EF5 /* 01-首页1-3退出登录.png */; };
-		91335F261C042AD400E14EF5 /* 01-首页1-3选城市.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D911C042AD300E14EF5 /* 01-首页1-3选城市.png */; };
-		91335F271C042AD400E14EF5 /* 01-首页2-1作品详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D921C042AD300E14EF5 /* 01-首页2-1作品详情.png */; };
-		91335F281C042AD400E14EF5 /* 01-首页2-1样片详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D931C042AD300E14EF5 /* 01-首页2-1样片详情.png */; };
-		91335F291C042AD400E14EF5 /* 01-首页2-2作品详情滑动.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D941C042AD300E14EF5 /* 01-首页2-2作品详情滑动.png */; };
-		91335F2A1C042AD400E14EF5 /* 01-首页2-3摄影师首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D951C042AD300E14EF5 /* 01-首页2-3摄影师首页.png */; };
-		91335F2B1C042AD400E14EF5 /* 01-首页3-1照片详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D961C042AD300E14EF5 /* 01-首页3-1照片详情.png */; };
-		91335F2C1C042AD400E14EF5 /* 01-首页3-2照片评论.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D971C042AD300E14EF5 /* 01-首页3-2照片评论.png */; };
-		91335F2D1C042AD400E14EF5 /* 01-首页3-3照片分享.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D981C042AD300E14EF5 /* 01-首页3-3照片分享.png */; };
-		91335F2E1C042AD400E14EF5 /* 01-首页4-1促销信息.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D991C042AD300E14EF5 /* 01-首页4-1促销信息.png */; };
-		91335F2F1C042AD400E14EF5 /* 01-首页4-1客服留言.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D9A1C042AD300E14EF5 /* 01-首页4-1客服留言.png */; };
-		91335F301C042AD400E14EF5 /* 01-首页4-2促销详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D9B1C042AD300E14EF5 /* 01-首页4-2促销详情.png */; };
-		91335F311C042AD400E14EF5 /* 02-优惠1-1列表.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D9C1C042AD300E14EF5 /* 02-优惠1-1列表.png */; };
-		91335F321C042AD400E14EF5 /* 02-优惠1-2详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D9D1C042AD300E14EF5 /* 02-优惠1-2详情.png */; };
-		91335F331C042AD400E14EF5 /* 02-优惠1-3详情长图.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D9E1C042AD300E14EF5 /* 02-优惠1-3详情长图.png */; };
-		91335F341C042AD400E14EF5 /* 02-优惠2-1门店列表.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335D9F1C042AD300E14EF5 /* 02-优惠2-1门店列表.png */; };
-		91335F351C042AD400E14EF5 /* 02-优惠2-2门店详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA01C042AD300E14EF5 /* 02-优惠2-2门店详情.png */; };
-		91335F361C042AD400E14EF5 /* 02-优惠2-3门店拨打电话.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA11C042AD300E14EF5 /* 02-优惠2-3门店拨打电话.png */; };
-		91335F371C042AD400E14EF5 /* 02-优惠2-4门店地图.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA21C042AD300E14EF5 /* 02-优惠2-4门店地图.png */; };
-		91335F381C042AD400E14EF5 /* 02-优惠2-5其他分店.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA31C042AD300E14EF5 /* 02-优惠2-5其他分店.png */; };
-		91335F391C042AD400E14EF5 /* 02-优惠3-1确认订单.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA41C042AD300E14EF5 /* 02-优惠3-1确认订单.png */; };
-		91335F3A1C042AD400E14EF5 /* 03-外景1-1大图模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA51C042AD300E14EF5 /* 03-外景1-1大图模式.png */; };
-		91335F3B1C042AD400E14EF5 /* 03-外景1-2瀑布流模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA61C042AD300E14EF5 /* 03-外景1-2瀑布流模式.png */; };
-		91335F3C1C042AD400E14EF5 /* 03-我的1-1默认.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA71C042AD300E14EF5 /* 03-我的1-1默认.png */; };
-		91335F3D1C042AD400E14EF5 /* 03-我的2-1订单.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA81C042AD300E14EF5 /* 03-我的2-1订单.png */; };
-		91335F3E1C042AD400E14EF5 /* 03-我的2-2拍照.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DA91C042AD300E14EF5 /* 03-我的2-2拍照.png */; };
-		91335F3F1C042AD400E14EF5 /* 03-我的2-3选片.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DAA1C042AD300E14EF5 /* 03-我的2-3选片.png */; };
-		91335F401C042AD400E14EF5 /* 03-我的2-4选片放大.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DAB1C042AD300E14EF5 /* 03-我的2-4选片放大.png */; };
-		91335F411C042AD400E14EF5 /* 03-我的2-5选片放大.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DAC1C042AD300E14EF5 /* 03-我的2-5选片放大.png */; };
-		91335F421C042AD400E14EF5 /* 03-我的2-6精修意见.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DAD1C042AD300E14EF5 /* 03-我的2-6精修意见.png */; };
-		91335F431C042AD400E14EF5 /* 03-我的2-7精修确认.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DAE1C042AD300E14EF5 /* 03-我的2-7精修确认.png */; };
-		91335F441C042AD400E14EF5 /* 03-我的2-8印刷确认.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DAF1C042AD300E14EF5 /* 03-我的2-8印刷确认.png */; };
-		91335F451C042AD400E14EF5 /* 03-我的2-9取件.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB01C042AD300E14EF5 /* 03-我的2-9取件.png */; };
-		91335F461C042AD400E14EF5 /* 03-我的3-1我的片券.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB11C042AD300E14EF5 /* 03-我的3-1我的片券.png */; };
-		91335F471C042AD400E14EF5 /* 03-我的3-2我的片券.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB21C042AD300E14EF5 /* 03-我的3-2我的片券.png */; };
-		91335F481C042AD400E14EF5 /* 03-我的3-3我的片券-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB31C042AD300E14EF5 /* 03-我的3-3我的片券-2.png */; };
-		91335F491C042AD400E14EF5 /* 03-我的4-1影集.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB41C042AD300E14EF5 /* 03-我的4-1影集.png */; };
-		91335F4A1C042AD400E14EF5 /* 03-我的4-2影集详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB51C042AD300E14EF5 /* 03-我的4-2影集详情.png */; };
-		91335F4B1C042AD400E14EF5 /* 03-我的4-3影集大图.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB61C042AD300E14EF5 /* 03-我的4-3影集大图.png */; };
-		91335F4C1C042AD400E14EF5 /* 03-我的4-4影集大图.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB71C042AD300E14EF5 /* 03-我的4-4影集大图.png */; };
-		91335F4D1C042AD400E14EF5 /* 04-我的1-1默认.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB81C042AD300E14EF5 /* 04-我的1-1默认.png */; };
-		91335F4E1C042AD400E14EF5 /* 04-我的1-2默认滑动.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DB91C042AD300E14EF5 /* 04-我的1-2默认滑动.png */; };
-		91335F4F1C042AD400E14EF5 /* 04-我的2-10订单完成.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DBA1C042AD300E14EF5 /* 04-我的2-10订单完成.png */; };
-		91335F501C042AD400E14EF5 /* 04-我的2-1订单.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DBB1C042AD300E14EF5 /* 04-我的2-1订单.png */; };
-		91335F511C042AD400E14EF5 /* 04-我的2-1预约选服装.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DBC1C042AD300E14EF5 /* 04-我的2-1预约选服装.png */; };
-		91335F521C042AD400E14EF5 /* 04-我的2-2拍照.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DBD1C042AD300E14EF5 /* 04-我的2-2拍照.png */; };
-		91335F531C042AD400E14EF5 /* 04-我的2-2选服装.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DBE1C042AD300E14EF5 /* 04-我的2-2选服装.png */; };
-		91335F541C042AD400E14EF5 /* 04-我的2-3等待拍摄.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DBF1C042AD300E14EF5 /* 04-我的2-3等待拍摄.png */; };
-		91335F551C042AD400E14EF5 /* 04-我的2-4预约选片.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC01C042AD300E14EF5 /* 04-我的2-4预约选片.png */; };
-		91335F561C042AD400E14EF5 /* 04-我的2-5等待选片.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC11C042AD300E14EF5 /* 04-我的2-5等待选片.png */; };
-		91335F571C042AD400E14EF5 /* 04-我的2-6预约看精修.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC21C042AD300E14EF5 /* 04-我的2-6预约看精修.png */; };
-		91335F581C042AD400E14EF5 /* 04-我的2-7等待看精修.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC31C042AD300E14EF5 /* 04-我的2-7等待看精修.png */; };
-		91335F591C042AD400E14EF5 /* 04-我的2-7精修确认.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC41C042AD300E14EF5 /* 04-我的2-7精修确认.png */; };
-		91335F5A1C042AD400E14EF5 /* 04-我的2-8印刷.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC51C042AD300E14EF5 /* 04-我的2-8印刷.png */; };
-		91335F5B1C042AD400E14EF5 /* 04-我的2-8印刷确认.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC61C042AD300E14EF5 /* 04-我的2-8印刷确认.png */; };
-		91335F5C1C042AD400E14EF5 /* 04-我的2-9取片.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC71C042AD300E14EF5 /* 04-我的2-9取片.png */; };
-		91335F5D1C042AD400E14EF5 /* 04-我的3-1我的片券.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC81C042AD300E14EF5 /* 04-我的3-1我的片券.png */; };
-		91335F5E1C042AD400E14EF5 /* 04-我的3-2我的片券.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC91C042AD300E14EF5 /* 04-我的3-2我的片券.png */; };
-		91335F5F1C042AD400E14EF5 /* 04-我的3-3我的片券.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DCA1C042AD300E14EF5 /* 04-我的3-3我的片券.png */; };
-		91335F601C042AD400E14EF5 /* 04-我的4-1影集.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DCB1C042AD300E14EF5 /* 04-我的4-1影集.png */; };
-		91335F611C042AD400E14EF5 /* 04-我的4-2影集授权.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DCC1C042AD300E14EF5 /* 04-我的4-2影集授权.png */; };
-		91335F621C042AD400E14EF5 /* 04-我的4-2影集详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DCD1C042AD300E14EF5 /* 04-我的4-2影集详情.png */; };
-		91335F631C042AD400E14EF5 /* 04-我的4-3影集大图.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DCE1C042AD300E14EF5 /* 04-我的4-3影集大图.png */; };
-		91335F641C042AD400E14EF5 /* 04-我的4-3影集授权弹框1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DCF1C042AD300E14EF5 /* 04-我的4-3影集授权弹框1.png */; };
-		91335F651C042AD400E14EF5 /* 04-我的4-3影集授权弹框2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD01C042AD300E14EF5 /* 04-我的4-3影集授权弹框2.png */; };
-		91335F661C042AD400E14EF5 /* 04-我的4-4影集大图.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD11C042AD300E14EF5 /* 04-我的4-4影集大图.png */; };
-		91335F671C042AD400E14EF5 /* 04-我的5-1信息评论.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD21C042AD300E14EF5 /* 04-我的5-1信息评论.png */; };
-		91335F681C042AD400E14EF5 /* 04-我的5-2信息消息.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD31C042AD300E14EF5 /* 04-我的5-2信息消息.png */; };
-		91335F691C042AD400E14EF5 /* 04-我的5-3系统管理员.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD41C042AD300E14EF5 /* 04-我的5-3系统管理员.png */; };
-		91335F6A1C042AD400E14EF5 /* 05-个人信息1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD51C042AD300E14EF5 /* 05-个人信息1-1.png */; };
-		91335F6B1C042AD400E14EF5 /* 05-个人信息1-2密码修改.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD61C042AD300E14EF5 /* 05-个人信息1-2密码修改.png */; };
-		91335F6C1C042AD400E14EF5 /* 06-登录1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD71C042AD300E14EF5 /* 06-登录1-1.png */; };
-		91335F6D1C042AD400E14EF5 /* 06-登录1-2密码找回1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD81C042AD300E14EF5 /* 06-登录1-2密码找回1.png */; };
-		91335F6E1C042AD400E14EF5 /* 06-登录1-2密码找回2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DD91C042AD300E14EF5 /* 06-登录1-2密码找回2.png */; };
-		91335F6F1C042AD400E14EF5 /* 06-登录1-2密码找回3.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DDA1C042AD300E14EF5 /* 06-登录1-2密码找回3.png */; };
-		91335F701C042AD400E14EF5 /* 06-登录1-3重设密码1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DDB1C042AD300E14EF5 /* 06-登录1-3重设密码1.png */; };
-		91335F711C042AD400E14EF5 /* 06-登录1-3重设密码2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DDC1C042AD300E14EF5 /* 06-登录1-3重设密码2.png */; };
-		91335F721C042AD400E14EF5 /* 07-注册1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DDD1C042AD300E14EF5 /* 07-注册1-1.png */; };
-		91335F731C042AD400E14EF5 /* 07-注册1-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DDE1C042AD300E14EF5 /* 07-注册1-2.png */; };
-		91335F741C042AD400E14EF5 /* 07-注册1-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DDF1C042AD300E14EF5 /* 07-注册1-3.png */; };
-		91335F751C042AD400E14EF5 /* 07-注册1-4设置密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE01C042AD300E14EF5 /* 07-注册1-4设置密码.png */; };
-		91335F761C042AD400E14EF5 /* 08-设置1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE11C042AD300E14EF5 /* 08-设置1-1.png */; };
-		91335F771C042AD400E14EF5 /* 08-设置1-2意见反馈.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE21C042AD300E14EF5 /* 08-设置1-2意见反馈.png */; };
-		91335F781C042AD400E14EF5 /* 08-设置1-3检测版本.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE31C042AD400E14EF5 /* 08-设置1-3检测版本.png */; };
-		91335F791C042AD400E14EF5 /* 08-设置1-4检测版本.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE41C042AD400E14EF5 /* 08-设置1-4检测版本.png */; };
-		91335F7A1C042AD400E14EF5 /* 08-设置1-5关于.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE51C042AD400E14EF5 /* 08-设置1-5关于.png */; };
-		91335F7B1C042AD400E14EF5 /* 08-设置1-5关于副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE61C042AD400E14EF5 /* 08-设置1-5关于副本.png */; };
-		91335F7C1C042AD400E14EF5 /* 088EE417-ADE3-4886-839A-29A21E284B6D.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE71C042AD400E14EF5 /* 088EE417-ADE3-4886-839A-29A21E284B6D.png */; };
-		91335F7D1C042AD400E14EF5 /* 09A108DD-88B2-463A-9CF2-7AAE644A3326.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE81C042AD400E14EF5 /* 09A108DD-88B2-463A-9CF2-7AAE644A3326.png */; };
-		91335F7E1C042AD400E14EF5 /* 0E2895F3-3670-41FD-9109-45E4E9405387.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DE91C042AD400E14EF5 /* 0E2895F3-3670-41FD-9109-45E4E9405387.png */; };
-		91335F7F1C042AD400E14EF5 /* 125AC807-FDFF-460A-A24D-F8F6A53F667C.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DEA1C042AD400E14EF5 /* 125AC807-FDFF-460A-A24D-F8F6A53F667C.png */; };
-		91335F801C042AD400E14EF5 /* 1F1E3BD8-0451-4F02-9815-7029B990EE8A.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DEB1C042AD400E14EF5 /* 1F1E3BD8-0451-4F02-9815-7029B990EE8A.png */; };
-		91335F811C042AD400E14EF5 /* 273D6004-80F7-4983-8C6F-43BD4B2D85BD.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DEC1C042AD400E14EF5 /* 273D6004-80F7-4983-8C6F-43BD4B2D85BD.png */; };
-		91335F821C042AD400E14EF5 /* 3841BE38-C73A-4119-9E96-C17052C453D4.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DED1C042AD400E14EF5 /* 3841BE38-C73A-4119-9E96-C17052C453D4.png */; };
-		91335F831C042AD400E14EF5 /* 39592C73-EA8A-4134-B254-C022DBB2C499.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DEE1C042AD400E14EF5 /* 39592C73-EA8A-4134-B254-C022DBB2C499.png */; };
-		91335F841C042AD400E14EF5 /* 4A758B63-AAFD-4BBC-99B9-D229A9329BFF.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DEF1C042AD400E14EF5 /* 4A758B63-AAFD-4BBC-99B9-D229A9329BFF.png */; };
-		91335F851C042AD400E14EF5 /* 533F3810-967A-4EFE-B757-042B2A66E74B.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF01C042AD400E14EF5 /* 533F3810-967A-4EFE-B757-042B2A66E74B.png */; };
-		91335F861C042AD400E14EF5 /* 56987FCD-D085-49CA-AAAE-3616B69A8314.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF11C042AD400E14EF5 /* 56987FCD-D085-49CA-AAAE-3616B69A8314.png */; };
-		91335F871C042AD400E14EF5 /* 621686F9-57FA-42F0-888A-8638EF94DDB9.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF21C042AD400E14EF5 /* 621686F9-57FA-42F0-888A-8638EF94DDB9.png */; };
-		91335F881C042AD400E14EF5 /* 7490C2FB-847A-4F42-A34B-747692E905DD.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF31C042AD400E14EF5 /* 7490C2FB-847A-4F42-A34B-747692E905DD.png */; };
-		91335F891C042AD400E14EF5 /* 89EED6B3-8059-45D6-B5BB-95E8A0365D0F.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF41C042AD400E14EF5 /* 89EED6B3-8059-45D6-B5BB-95E8A0365D0F.png */; };
-		91335F8A1C042AD400E14EF5 /* 8CE880AA-539A-43C2-A536-BB291EC9C39B.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF51C042AD400E14EF5 /* 8CE880AA-539A-43C2-A536-BB291EC9C39B.png */; };
-		91335F8B1C042AD400E14EF5 /* 908A354C-B215-473F-8DDA-D029A2631D1E.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF61C042AD400E14EF5 /* 908A354C-B215-473F-8DDA-D029A2631D1E.png */; };
-		91335F8C1C042AD400E14EF5 /* B2C23215-8696-400E-89E0-EDD48AD50693.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF71C042AD400E14EF5 /* B2C23215-8696-400E-89E0-EDD48AD50693.png */; };
-		91335F8D1C042AD400E14EF5 /* B5A45B02-D02E-4F03-9FD5-3EB989B9D663.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF81C042AD400E14EF5 /* B5A45B02-D02E-4F03-9FD5-3EB989B9D663.png */; };
-		91335F8E1C042AD400E14EF5 /* BCA16A12-7C6B-4738-8670-275DC051E37D.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DF91C042AD400E14EF5 /* BCA16A12-7C6B-4738-8670-275DC051E37D.png */; };
-		91335F8F1C042AD400E14EF5 /* BF2BEBA5-B432-4412-82CF-B99AFFB10F60.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DFA1C042AD400E14EF5 /* BF2BEBA5-B432-4412-82CF-B99AFFB10F60.png */; };
-		91335F901C042AD400E14EF5 /* CFA90124-BC5B-4673-8ADC-E420817DA38B.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DFB1C042AD400E14EF5 /* CFA90124-BC5B-4673-8ADC-E420817DA38B.png */; };
-		91335F911C042AD400E14EF5 /* DB5E8728-84A6-4989-BE41-05F0C61BFAD0.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DFC1C042AD400E14EF5 /* DB5E8728-84A6-4989-BE41-05F0C61BFAD0.png */; };
-		91335F921C042AD400E14EF5 /* DEE6A26A-AF62-47E7-A10D-E6D75CC51A88.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DFD1C042AD400E14EF5 /* DEE6A26A-AF62-47E7-A10D-E6D75CC51A88.png */; };
-		91335F931C042AD400E14EF5 /* F94D89C9-E759-4071-AC2C-570E40AEC3CE.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DFE1C042AD400E14EF5 /* F94D89C9-E759-4071-AC2C-570E40AEC3CE.png */; };
-		91335F941C042AD400E14EF5 /* homeScreen-iOS7-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335DFF1C042AD400E14EF5 /* homeScreen-iOS7-568h@2x.png */; };
-		91335F951C042AD400E14EF5 /* homeScreen-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335E001C042AD400E14EF5 /* homeScreen-iOS7@2x.png */; };
-		91335F961C042AD400E14EF5 /* 侧边栏.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335E011C042AD400E14EF5 /* 侧边栏.png */; };
-		91335F971C042AD400E14EF5 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 91335E021C042AD400E14EF5 /* 首页.png */; };
 		91335F981C042AD400E14EF5 /* SuggestedColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91335E031C042AD400E14EF5 /* SuggestedColors.plist */; };
 		91335F991C042AD400E14EF5 /* ThirdPartService.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335E051C042AD400E14EF5 /* ThirdPartService.m */; };
 		91335F9A1C042AD400E14EF5 /* BetterTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91335E0A1C042AD400E14EF5 /* BetterTableCell.m */; };
@@ -270,6 +147,7 @@
 		91BAC7F71BC7B873005D34E3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAC7F61BC7B873005D34E3 /* JavaScriptCore.framework */; };
 		91F0842B1AB3C34F0084E284 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F084291AB3C34F0084E284 /* libcrypto.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 		91F0842C1AB3C34F0084E284 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F0842A1AB3C34F0084E284 /* libssl.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C391EA9897402B243F5E971A /* libPods-oc_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9654B519CB0DD5AB20F96 /* libPods-oc_lib.a */; };
 		D7B7D09815EB1F2900CF5672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7D09715EB1F2900CF5672 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D7B7D09A15EB1F2900CF5672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7D09915EB1F2900CF5672 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D7B7D09C15EB1F2900CF5672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7D09B15EB1F2900CF5672 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -293,11 +171,12 @@
 		04A8FDBD19B44D6E003B8036 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		04A8FDC919B44FA2003B8036 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		04A8FDCE19B46048003B8036 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
-		11E4DF22CE35550749EDE3F8 /* Pods-oc_lib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oc_lib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oc_lib/Pods-oc_lib.debug.xcconfig"; sourceTree = "<group>"; };
+		0FFDC4FD9EE2C940294A9FF9 /* Pods-oc_lib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oc_lib.release.xcconfig"; path = "Pods/Target Support Files/Pods-oc_lib/Pods-oc_lib.release.xcconfig"; sourceTree = "<group>"; };
 		293911CF18114AA700FE7684 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		85C6C593D0EBD0666FF9C4E2 /* libPods-oc_lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-oc_lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F9654B519CB0DD5AB20F96 /* libPods-oc_lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-oc_lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9107CCF419F3929B00ACC4C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9107E2021AB19EBE00DD8FB7 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = PMS/Vendors/AlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
+		911BEC8C1E754616002134F8 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		9130EE6619F392F90009BB08 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		91335D481C042AD300E14EF5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91335D491C042AD300E14EF5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -333,7 +212,6 @@
 		91335D6B1C042AD300E14EF5 /* UIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
 		91335D6C1C042AD300E14EF5 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 		91335D6D1C042AD300E14EF5 /* VendorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
-		91335D6E1C042AD300E14EF5 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		91335D6F1C042AD300E14EF5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91335D711C042AD300E14EF5 /* BaseModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModelObject.h; sourceTree = "<group>"; };
 		91335D721C042AD300E14EF5 /* BaseModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModelObject.m; sourceTree = "<group>"; };
@@ -358,127 +236,6 @@
 		91335D851C042AD300E14EF5 /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
 		91335D861C042AD300E14EF5 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		91335D881C042AD300E14EF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		91335D8A1C042AD300E14EF5 /* 00启动页1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00启动页1136.png"; sourceTree = "<group>"; };
-		91335D8B1C042AD300E14EF5 /* 00启动页960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00启动页960.png"; sourceTree = "<group>"; };
-		91335D8C1C042AD300E14EF5 /* 01-首页1-1默认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页1-1默认.png"; sourceTree = "<group>"; };
-		91335D8D1C042AD300E14EF5 /* 01-首页1-1默认1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页1-1默认1.png"; sourceTree = "<group>"; };
-		91335D8E1C042AD300E14EF5 /* 01-首页1-2侧边栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页1-2侧边栏.png"; sourceTree = "<group>"; };
-		91335D8F1C042AD300E14EF5 /* 01-首页1-2侧边栏1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页1-2侧边栏1.png"; sourceTree = "<group>"; };
-		91335D901C042AD300E14EF5 /* 01-首页1-3退出登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页1-3退出登录.png"; sourceTree = "<group>"; };
-		91335D911C042AD300E14EF5 /* 01-首页1-3选城市.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页1-3选城市.png"; sourceTree = "<group>"; };
-		91335D921C042AD300E14EF5 /* 01-首页2-1作品详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页2-1作品详情.png"; sourceTree = "<group>"; };
-		91335D931C042AD300E14EF5 /* 01-首页2-1样片详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页2-1样片详情.png"; sourceTree = "<group>"; };
-		91335D941C042AD300E14EF5 /* 01-首页2-2作品详情滑动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页2-2作品详情滑动.png"; sourceTree = "<group>"; };
-		91335D951C042AD300E14EF5 /* 01-首页2-3摄影师首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页2-3摄影师首页.png"; sourceTree = "<group>"; };
-		91335D961C042AD300E14EF5 /* 01-首页3-1照片详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页3-1照片详情.png"; sourceTree = "<group>"; };
-		91335D971C042AD300E14EF5 /* 01-首页3-2照片评论.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页3-2照片评论.png"; sourceTree = "<group>"; };
-		91335D981C042AD300E14EF5 /* 01-首页3-3照片分享.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页3-3照片分享.png"; sourceTree = "<group>"; };
-		91335D991C042AD300E14EF5 /* 01-首页4-1促销信息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页4-1促销信息.png"; sourceTree = "<group>"; };
-		91335D9A1C042AD300E14EF5 /* 01-首页4-1客服留言.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页4-1客服留言.png"; sourceTree = "<group>"; };
-		91335D9B1C042AD300E14EF5 /* 01-首页4-2促销详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-首页4-2促销详情.png"; sourceTree = "<group>"; };
-		91335D9C1C042AD300E14EF5 /* 02-优惠1-1列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠1-1列表.png"; sourceTree = "<group>"; };
-		91335D9D1C042AD300E14EF5 /* 02-优惠1-2详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠1-2详情.png"; sourceTree = "<group>"; };
-		91335D9E1C042AD300E14EF5 /* 02-优惠1-3详情长图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠1-3详情长图.png"; sourceTree = "<group>"; };
-		91335D9F1C042AD300E14EF5 /* 02-优惠2-1门店列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠2-1门店列表.png"; sourceTree = "<group>"; };
-		91335DA01C042AD300E14EF5 /* 02-优惠2-2门店详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠2-2门店详情.png"; sourceTree = "<group>"; };
-		91335DA11C042AD300E14EF5 /* 02-优惠2-3门店拨打电话.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠2-3门店拨打电话.png"; sourceTree = "<group>"; };
-		91335DA21C042AD300E14EF5 /* 02-优惠2-4门店地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠2-4门店地图.png"; sourceTree = "<group>"; };
-		91335DA31C042AD300E14EF5 /* 02-优惠2-5其他分店.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠2-5其他分店.png"; sourceTree = "<group>"; };
-		91335DA41C042AD300E14EF5 /* 02-优惠3-1确认订单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-优惠3-1确认订单.png"; sourceTree = "<group>"; };
-		91335DA51C042AD300E14EF5 /* 03-外景1-1大图模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-外景1-1大图模式.png"; sourceTree = "<group>"; };
-		91335DA61C042AD300E14EF5 /* 03-外景1-2瀑布流模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-外景1-2瀑布流模式.png"; sourceTree = "<group>"; };
-		91335DA71C042AD300E14EF5 /* 03-我的1-1默认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的1-1默认.png"; sourceTree = "<group>"; };
-		91335DA81C042AD300E14EF5 /* 03-我的2-1订单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-1订单.png"; sourceTree = "<group>"; };
-		91335DA91C042AD300E14EF5 /* 03-我的2-2拍照.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-2拍照.png"; sourceTree = "<group>"; };
-		91335DAA1C042AD300E14EF5 /* 03-我的2-3选片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-3选片.png"; sourceTree = "<group>"; };
-		91335DAB1C042AD300E14EF5 /* 03-我的2-4选片放大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-4选片放大.png"; sourceTree = "<group>"; };
-		91335DAC1C042AD300E14EF5 /* 03-我的2-5选片放大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-5选片放大.png"; sourceTree = "<group>"; };
-		91335DAD1C042AD300E14EF5 /* 03-我的2-6精修意见.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-6精修意见.png"; sourceTree = "<group>"; };
-		91335DAE1C042AD300E14EF5 /* 03-我的2-7精修确认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-7精修确认.png"; sourceTree = "<group>"; };
-		91335DAF1C042AD300E14EF5 /* 03-我的2-8印刷确认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-8印刷确认.png"; sourceTree = "<group>"; };
-		91335DB01C042AD300E14EF5 /* 03-我的2-9取件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的2-9取件.png"; sourceTree = "<group>"; };
-		91335DB11C042AD300E14EF5 /* 03-我的3-1我的片券.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的3-1我的片券.png"; sourceTree = "<group>"; };
-		91335DB21C042AD300E14EF5 /* 03-我的3-2我的片券.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的3-2我的片券.png"; sourceTree = "<group>"; };
-		91335DB31C042AD300E14EF5 /* 03-我的3-3我的片券-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的3-3我的片券-2.png"; sourceTree = "<group>"; };
-		91335DB41C042AD300E14EF5 /* 03-我的4-1影集.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的4-1影集.png"; sourceTree = "<group>"; };
-		91335DB51C042AD300E14EF5 /* 03-我的4-2影集详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的4-2影集详情.png"; sourceTree = "<group>"; };
-		91335DB61C042AD300E14EF5 /* 03-我的4-3影集大图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的4-3影集大图.png"; sourceTree = "<group>"; };
-		91335DB71C042AD300E14EF5 /* 03-我的4-4影集大图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-我的4-4影集大图.png"; sourceTree = "<group>"; };
-		91335DB81C042AD300E14EF5 /* 04-我的1-1默认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的1-1默认.png"; sourceTree = "<group>"; };
-		91335DB91C042AD300E14EF5 /* 04-我的1-2默认滑动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的1-2默认滑动.png"; sourceTree = "<group>"; };
-		91335DBA1C042AD300E14EF5 /* 04-我的2-10订单完成.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-10订单完成.png"; sourceTree = "<group>"; };
-		91335DBB1C042AD300E14EF5 /* 04-我的2-1订单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-1订单.png"; sourceTree = "<group>"; };
-		91335DBC1C042AD300E14EF5 /* 04-我的2-1预约选服装.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-1预约选服装.png"; sourceTree = "<group>"; };
-		91335DBD1C042AD300E14EF5 /* 04-我的2-2拍照.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-2拍照.png"; sourceTree = "<group>"; };
-		91335DBE1C042AD300E14EF5 /* 04-我的2-2选服装.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-2选服装.png"; sourceTree = "<group>"; };
-		91335DBF1C042AD300E14EF5 /* 04-我的2-3等待拍摄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-3等待拍摄.png"; sourceTree = "<group>"; };
-		91335DC01C042AD300E14EF5 /* 04-我的2-4预约选片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-4预约选片.png"; sourceTree = "<group>"; };
-		91335DC11C042AD300E14EF5 /* 04-我的2-5等待选片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-5等待选片.png"; sourceTree = "<group>"; };
-		91335DC21C042AD300E14EF5 /* 04-我的2-6预约看精修.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-6预约看精修.png"; sourceTree = "<group>"; };
-		91335DC31C042AD300E14EF5 /* 04-我的2-7等待看精修.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-7等待看精修.png"; sourceTree = "<group>"; };
-		91335DC41C042AD300E14EF5 /* 04-我的2-7精修确认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-7精修确认.png"; sourceTree = "<group>"; };
-		91335DC51C042AD300E14EF5 /* 04-我的2-8印刷.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-8印刷.png"; sourceTree = "<group>"; };
-		91335DC61C042AD300E14EF5 /* 04-我的2-8印刷确认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-8印刷确认.png"; sourceTree = "<group>"; };
-		91335DC71C042AD300E14EF5 /* 04-我的2-9取片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的2-9取片.png"; sourceTree = "<group>"; };
-		91335DC81C042AD300E14EF5 /* 04-我的3-1我的片券.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的3-1我的片券.png"; sourceTree = "<group>"; };
-		91335DC91C042AD300E14EF5 /* 04-我的3-2我的片券.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的3-2我的片券.png"; sourceTree = "<group>"; };
-		91335DCA1C042AD300E14EF5 /* 04-我的3-3我的片券.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的3-3我的片券.png"; sourceTree = "<group>"; };
-		91335DCB1C042AD300E14EF5 /* 04-我的4-1影集.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的4-1影集.png"; sourceTree = "<group>"; };
-		91335DCC1C042AD300E14EF5 /* 04-我的4-2影集授权.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的4-2影集授权.png"; sourceTree = "<group>"; };
-		91335DCD1C042AD300E14EF5 /* 04-我的4-2影集详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的4-2影集详情.png"; sourceTree = "<group>"; };
-		91335DCE1C042AD300E14EF5 /* 04-我的4-3影集大图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的4-3影集大图.png"; sourceTree = "<group>"; };
-		91335DCF1C042AD300E14EF5 /* 04-我的4-3影集授权弹框1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的4-3影集授权弹框1.png"; sourceTree = "<group>"; };
-		91335DD01C042AD300E14EF5 /* 04-我的4-3影集授权弹框2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的4-3影集授权弹框2.png"; sourceTree = "<group>"; };
-		91335DD11C042AD300E14EF5 /* 04-我的4-4影集大图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的4-4影集大图.png"; sourceTree = "<group>"; };
-		91335DD21C042AD300E14EF5 /* 04-我的5-1信息评论.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的5-1信息评论.png"; sourceTree = "<group>"; };
-		91335DD31C042AD300E14EF5 /* 04-我的5-2信息消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的5-2信息消息.png"; sourceTree = "<group>"; };
-		91335DD41C042AD300E14EF5 /* 04-我的5-3系统管理员.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-我的5-3系统管理员.png"; sourceTree = "<group>"; };
-		91335DD51C042AD300E14EF5 /* 05-个人信息1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05-个人信息1-1.png"; sourceTree = "<group>"; };
-		91335DD61C042AD300E14EF5 /* 05-个人信息1-2密码修改.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05-个人信息1-2密码修改.png"; sourceTree = "<group>"; };
-		91335DD71C042AD300E14EF5 /* 06-登录1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-登录1-1.png"; sourceTree = "<group>"; };
-		91335DD81C042AD300E14EF5 /* 06-登录1-2密码找回1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-登录1-2密码找回1.png"; sourceTree = "<group>"; };
-		91335DD91C042AD300E14EF5 /* 06-登录1-2密码找回2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-登录1-2密码找回2.png"; sourceTree = "<group>"; };
-		91335DDA1C042AD300E14EF5 /* 06-登录1-2密码找回3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-登录1-2密码找回3.png"; sourceTree = "<group>"; };
-		91335DDB1C042AD300E14EF5 /* 06-登录1-3重设密码1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-登录1-3重设密码1.png"; sourceTree = "<group>"; };
-		91335DDC1C042AD300E14EF5 /* 06-登录1-3重设密码2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-登录1-3重设密码2.png"; sourceTree = "<group>"; };
-		91335DDD1C042AD300E14EF5 /* 07-注册1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-注册1-1.png"; sourceTree = "<group>"; };
-		91335DDE1C042AD300E14EF5 /* 07-注册1-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-注册1-2.png"; sourceTree = "<group>"; };
-		91335DDF1C042AD300E14EF5 /* 07-注册1-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-注册1-3.png"; sourceTree = "<group>"; };
-		91335DE01C042AD300E14EF5 /* 07-注册1-4设置密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-注册1-4设置密码.png"; sourceTree = "<group>"; };
-		91335DE11C042AD300E14EF5 /* 08-设置1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-设置1-1.png"; sourceTree = "<group>"; };
-		91335DE21C042AD300E14EF5 /* 08-设置1-2意见反馈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-设置1-2意见反馈.png"; sourceTree = "<group>"; };
-		91335DE31C042AD400E14EF5 /* 08-设置1-3检测版本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-设置1-3检测版本.png"; sourceTree = "<group>"; };
-		91335DE41C042AD400E14EF5 /* 08-设置1-4检测版本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-设置1-4检测版本.png"; sourceTree = "<group>"; };
-		91335DE51C042AD400E14EF5 /* 08-设置1-5关于.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-设置1-5关于.png"; sourceTree = "<group>"; };
-		91335DE61C042AD400E14EF5 /* 08-设置1-5关于副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-设置1-5关于副本.png"; sourceTree = "<group>"; };
-		91335DE71C042AD400E14EF5 /* 088EE417-ADE3-4886-839A-29A21E284B6D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "088EE417-ADE3-4886-839A-29A21E284B6D.png"; sourceTree = "<group>"; };
-		91335DE81C042AD400E14EF5 /* 09A108DD-88B2-463A-9CF2-7AAE644A3326.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09A108DD-88B2-463A-9CF2-7AAE644A3326.png"; sourceTree = "<group>"; };
-		91335DE91C042AD400E14EF5 /* 0E2895F3-3670-41FD-9109-45E4E9405387.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0E2895F3-3670-41FD-9109-45E4E9405387.png"; sourceTree = "<group>"; };
-		91335DEA1C042AD400E14EF5 /* 125AC807-FDFF-460A-A24D-F8F6A53F667C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "125AC807-FDFF-460A-A24D-F8F6A53F667C.png"; sourceTree = "<group>"; };
-		91335DEB1C042AD400E14EF5 /* 1F1E3BD8-0451-4F02-9815-7029B990EE8A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1F1E3BD8-0451-4F02-9815-7029B990EE8A.png"; sourceTree = "<group>"; };
-		91335DEC1C042AD400E14EF5 /* 273D6004-80F7-4983-8C6F-43BD4B2D85BD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "273D6004-80F7-4983-8C6F-43BD4B2D85BD.png"; sourceTree = "<group>"; };
-		91335DED1C042AD400E14EF5 /* 3841BE38-C73A-4119-9E96-C17052C453D4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3841BE38-C73A-4119-9E96-C17052C453D4.png"; sourceTree = "<group>"; };
-		91335DEE1C042AD400E14EF5 /* 39592C73-EA8A-4134-B254-C022DBB2C499.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "39592C73-EA8A-4134-B254-C022DBB2C499.png"; sourceTree = "<group>"; };
-		91335DEF1C042AD400E14EF5 /* 4A758B63-AAFD-4BBC-99B9-D229A9329BFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4A758B63-AAFD-4BBC-99B9-D229A9329BFF.png"; sourceTree = "<group>"; };
-		91335DF01C042AD400E14EF5 /* 533F3810-967A-4EFE-B757-042B2A66E74B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "533F3810-967A-4EFE-B757-042B2A66E74B.png"; sourceTree = "<group>"; };
-		91335DF11C042AD400E14EF5 /* 56987FCD-D085-49CA-AAAE-3616B69A8314.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "56987FCD-D085-49CA-AAAE-3616B69A8314.png"; sourceTree = "<group>"; };
-		91335DF21C042AD400E14EF5 /* 621686F9-57FA-42F0-888A-8638EF94DDB9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "621686F9-57FA-42F0-888A-8638EF94DDB9.png"; sourceTree = "<group>"; };
-		91335DF31C042AD400E14EF5 /* 7490C2FB-847A-4F42-A34B-747692E905DD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7490C2FB-847A-4F42-A34B-747692E905DD.png"; sourceTree = "<group>"; };
-		91335DF41C042AD400E14EF5 /* 89EED6B3-8059-45D6-B5BB-95E8A0365D0F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "89EED6B3-8059-45D6-B5BB-95E8A0365D0F.png"; sourceTree = "<group>"; };
-		91335DF51C042AD400E14EF5 /* 8CE880AA-539A-43C2-A536-BB291EC9C39B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8CE880AA-539A-43C2-A536-BB291EC9C39B.png"; sourceTree = "<group>"; };
-		91335DF61C042AD400E14EF5 /* 908A354C-B215-473F-8DDA-D029A2631D1E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "908A354C-B215-473F-8DDA-D029A2631D1E.png"; sourceTree = "<group>"; };
-		91335DF71C042AD400E14EF5 /* B2C23215-8696-400E-89E0-EDD48AD50693.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B2C23215-8696-400E-89E0-EDD48AD50693.png"; sourceTree = "<group>"; };
-		91335DF81C042AD400E14EF5 /* B5A45B02-D02E-4F03-9FD5-3EB989B9D663.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B5A45B02-D02E-4F03-9FD5-3EB989B9D663.png"; sourceTree = "<group>"; };
-		91335DF91C042AD400E14EF5 /* BCA16A12-7C6B-4738-8670-275DC051E37D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BCA16A12-7C6B-4738-8670-275DC051E37D.png"; sourceTree = "<group>"; };
-		91335DFA1C042AD400E14EF5 /* BF2BEBA5-B432-4412-82CF-B99AFFB10F60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BF2BEBA5-B432-4412-82CF-B99AFFB10F60.png"; sourceTree = "<group>"; };
-		91335DFB1C042AD400E14EF5 /* CFA90124-BC5B-4673-8ADC-E420817DA38B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CFA90124-BC5B-4673-8ADC-E420817DA38B.png"; sourceTree = "<group>"; };
-		91335DFC1C042AD400E14EF5 /* DB5E8728-84A6-4989-BE41-05F0C61BFAD0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DB5E8728-84A6-4989-BE41-05F0C61BFAD0.png"; sourceTree = "<group>"; };
-		91335DFD1C042AD400E14EF5 /* DEE6A26A-AF62-47E7-A10D-E6D75CC51A88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DEE6A26A-AF62-47E7-A10D-E6D75CC51A88.png"; sourceTree = "<group>"; };
-		91335DFE1C042AD400E14EF5 /* F94D89C9-E759-4071-AC2C-570E40AEC3CE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F94D89C9-E759-4071-AC2C-570E40AEC3CE.png"; sourceTree = "<group>"; };
-		91335DFF1C042AD400E14EF5 /* homeScreen-iOS7-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeScreen-iOS7-568h@2x.png"; sourceTree = "<group>"; };
-		91335E001C042AD400E14EF5 /* homeScreen-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeScreen-iOS7@2x.png"; sourceTree = "<group>"; };
-		91335E011C042AD400E14EF5 /* 侧边栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "侧边栏.png"; sourceTree = "<group>"; };
-		91335E021C042AD400E14EF5 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
 		91335E031C042AD400E14EF5 /* SuggestedColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SuggestedColors.plist; sourceTree = "<group>"; };
 		91335E041C042AD400E14EF5 /* ThirdPartService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartService.h; sourceTree = "<group>"; };
 		91335E051C042AD400E14EF5 /* ThirdPartService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPartService.m; sourceTree = "<group>"; };
@@ -711,9 +468,7 @@
 		91F084271AB3C2770084E284 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		91F084291AB3C34F0084E284 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		91F0842A1AB3C34F0084E284 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		B6FBEEDC4328F05D3E3AEE8B /* Pods-oc_lib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oc_lib.release.xcconfig"; path = "Pods/Target Support Files/Pods-oc_lib/Pods-oc_lib.release.xcconfig"; sourceTree = "<group>"; };
-		B7D598FCA957FD86C85AB4D8 /* libPods-SmartWPK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartWPK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD14706D05209E813B924CF6 /* libPods-PMS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PMS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4960ADF89DB3E7BCCD9F25 /* Pods-oc_lib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oc_lib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oc_lib/Pods-oc_lib.debug.xcconfig"; sourceTree = "<group>"; };
 		D7B7D09315EB1F2900CF5672 /* oc_lib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oc_lib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B7D09715EB1F2900CF5672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D7B7D09915EB1F2900CF5672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -765,31 +520,23 @@
 				91F0842B1AB3C34F0084E284 /* libcrypto.a in Frameworks */,
 				D7B7D09C15EB1F2900CF5672 /* CoreGraphics.framework in Frameworks */,
 				91335FD61C042AD400E14EF5 /* libPushSDK-1.8.2.a in Frameworks */,
-				25F786C06D173869FDA436CB /* libPods-oc_lib.a in Frameworks */,
+				C391EA9897402B243F5E971A /* libPods-oc_lib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B80EB843B3063422E5D28F7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				11E4DF22CE35550749EDE3F8 /* Pods-oc_lib.debug.xcconfig */,
-				B6FBEEDC4328F05D3E3AEE8B /* Pods-oc_lib.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		91335D471C042AD300E14EF5 /* oc_lib */ = {
 			isa = PBXGroup;
 			children = (
+				911BEC8C1E754616002134F8 /* Storyboard.storyboard */,
+				91335D811C042AD300E14EF5 /* MyPlayground.playground */,
 				91335D481C042AD300E14EF5 /* AppDelegate.h */,
 				91335D491C042AD300E14EF5 /* AppDelegate.m */,
 				91335D661C042AD300E14EF5 /* LaunchScreen.xib */,
 				91335E041C042AD400E14EF5 /* ThirdPartService.h */,
 				91335E051C042AD400E14EF5 /* ThirdPartService.m */,
-				91335D6E1C042AD300E14EF5 /* main.js */,
 				91335D6F1C042AD300E14EF5 /* main.m */,
 				91335D4A1C042AD300E14EF5 /* ARCSingleton.h */,
 				91335D4D1C042AD300E14EF5 /* Helpers */,
@@ -800,7 +547,6 @@
 				91335E461C042AD400E14EF5 /* Utils */,
 				91335E471C042AD400E14EF5 /* Vendors */,
 				91335D871C042AD300E14EF5 /* Resource */,
-				91335D811C042AD300E14EF5 /* MyPlayground.playground */,
 				91335D821C042AD300E14EF5 /* oc_lib-Info.plist */,
 				91335D831C042AD300E14EF5 /* oc_lib-Prefix.pch */,
 				91335D841C042AD300E14EF5 /* pms_config.plist */,
@@ -889,137 +635,8 @@
 			isa = PBXGroup;
 			children = (
 				91335D881C042AD300E14EF5 /* Images.xcassets */,
-				91335D891C042AD300E14EF5 /* UI */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		91335D891C042AD300E14EF5 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				91335D8A1C042AD300E14EF5 /* 00启动页1136.png */,
-				91335D8B1C042AD300E14EF5 /* 00启动页960.png */,
-				91335D8C1C042AD300E14EF5 /* 01-首页1-1默认.png */,
-				91335D8D1C042AD300E14EF5 /* 01-首页1-1默认1.png */,
-				91335D8E1C042AD300E14EF5 /* 01-首页1-2侧边栏.png */,
-				91335D8F1C042AD300E14EF5 /* 01-首页1-2侧边栏1.png */,
-				91335D901C042AD300E14EF5 /* 01-首页1-3退出登录.png */,
-				91335D911C042AD300E14EF5 /* 01-首页1-3选城市.png */,
-				91335D921C042AD300E14EF5 /* 01-首页2-1作品详情.png */,
-				91335D931C042AD300E14EF5 /* 01-首页2-1样片详情.png */,
-				91335D941C042AD300E14EF5 /* 01-首页2-2作品详情滑动.png */,
-				91335D951C042AD300E14EF5 /* 01-首页2-3摄影师首页.png */,
-				91335D961C042AD300E14EF5 /* 01-首页3-1照片详情.png */,
-				91335D971C042AD300E14EF5 /* 01-首页3-2照片评论.png */,
-				91335D981C042AD300E14EF5 /* 01-首页3-3照片分享.png */,
-				91335D991C042AD300E14EF5 /* 01-首页4-1促销信息.png */,
-				91335D9A1C042AD300E14EF5 /* 01-首页4-1客服留言.png */,
-				91335D9B1C042AD300E14EF5 /* 01-首页4-2促销详情.png */,
-				91335D9C1C042AD300E14EF5 /* 02-优惠1-1列表.png */,
-				91335D9D1C042AD300E14EF5 /* 02-优惠1-2详情.png */,
-				91335D9E1C042AD300E14EF5 /* 02-优惠1-3详情长图.png */,
-				91335D9F1C042AD300E14EF5 /* 02-优惠2-1门店列表.png */,
-				91335DA01C042AD300E14EF5 /* 02-优惠2-2门店详情.png */,
-				91335DA11C042AD300E14EF5 /* 02-优惠2-3门店拨打电话.png */,
-				91335DA21C042AD300E14EF5 /* 02-优惠2-4门店地图.png */,
-				91335DA31C042AD300E14EF5 /* 02-优惠2-5其他分店.png */,
-				91335DA41C042AD300E14EF5 /* 02-优惠3-1确认订单.png */,
-				91335DA51C042AD300E14EF5 /* 03-外景1-1大图模式.png */,
-				91335DA61C042AD300E14EF5 /* 03-外景1-2瀑布流模式.png */,
-				91335DA71C042AD300E14EF5 /* 03-我的1-1默认.png */,
-				91335DA81C042AD300E14EF5 /* 03-我的2-1订单.png */,
-				91335DA91C042AD300E14EF5 /* 03-我的2-2拍照.png */,
-				91335DAA1C042AD300E14EF5 /* 03-我的2-3选片.png */,
-				91335DAB1C042AD300E14EF5 /* 03-我的2-4选片放大.png */,
-				91335DAC1C042AD300E14EF5 /* 03-我的2-5选片放大.png */,
-				91335DAD1C042AD300E14EF5 /* 03-我的2-6精修意见.png */,
-				91335DAE1C042AD300E14EF5 /* 03-我的2-7精修确认.png */,
-				91335DAF1C042AD300E14EF5 /* 03-我的2-8印刷确认.png */,
-				91335DB01C042AD300E14EF5 /* 03-我的2-9取件.png */,
-				91335DB11C042AD300E14EF5 /* 03-我的3-1我的片券.png */,
-				91335DB21C042AD300E14EF5 /* 03-我的3-2我的片券.png */,
-				91335DB31C042AD300E14EF5 /* 03-我的3-3我的片券-2.png */,
-				91335DB41C042AD300E14EF5 /* 03-我的4-1影集.png */,
-				91335DB51C042AD300E14EF5 /* 03-我的4-2影集详情.png */,
-				91335DB61C042AD300E14EF5 /* 03-我的4-3影集大图.png */,
-				91335DB71C042AD300E14EF5 /* 03-我的4-4影集大图.png */,
-				91335DB81C042AD300E14EF5 /* 04-我的1-1默认.png */,
-				91335DB91C042AD300E14EF5 /* 04-我的1-2默认滑动.png */,
-				91335DBA1C042AD300E14EF5 /* 04-我的2-10订单完成.png */,
-				91335DBB1C042AD300E14EF5 /* 04-我的2-1订单.png */,
-				91335DBC1C042AD300E14EF5 /* 04-我的2-1预约选服装.png */,
-				91335DBD1C042AD300E14EF5 /* 04-我的2-2拍照.png */,
-				91335DBE1C042AD300E14EF5 /* 04-我的2-2选服装.png */,
-				91335DBF1C042AD300E14EF5 /* 04-我的2-3等待拍摄.png */,
-				91335DC01C042AD300E14EF5 /* 04-我的2-4预约选片.png */,
-				91335DC11C042AD300E14EF5 /* 04-我的2-5等待选片.png */,
-				91335DC21C042AD300E14EF5 /* 04-我的2-6预约看精修.png */,
-				91335DC31C042AD300E14EF5 /* 04-我的2-7等待看精修.png */,
-				91335DC41C042AD300E14EF5 /* 04-我的2-7精修确认.png */,
-				91335DC51C042AD300E14EF5 /* 04-我的2-8印刷.png */,
-				91335DC61C042AD300E14EF5 /* 04-我的2-8印刷确认.png */,
-				91335DC71C042AD300E14EF5 /* 04-我的2-9取片.png */,
-				91335DC81C042AD300E14EF5 /* 04-我的3-1我的片券.png */,
-				91335DC91C042AD300E14EF5 /* 04-我的3-2我的片券.png */,
-				91335DCA1C042AD300E14EF5 /* 04-我的3-3我的片券.png */,
-				91335DCB1C042AD300E14EF5 /* 04-我的4-1影集.png */,
-				91335DCC1C042AD300E14EF5 /* 04-我的4-2影集授权.png */,
-				91335DCD1C042AD300E14EF5 /* 04-我的4-2影集详情.png */,
-				91335DCE1C042AD300E14EF5 /* 04-我的4-3影集大图.png */,
-				91335DCF1C042AD300E14EF5 /* 04-我的4-3影集授权弹框1.png */,
-				91335DD01C042AD300E14EF5 /* 04-我的4-3影集授权弹框2.png */,
-				91335DD11C042AD300E14EF5 /* 04-我的4-4影集大图.png */,
-				91335DD21C042AD300E14EF5 /* 04-我的5-1信息评论.png */,
-				91335DD31C042AD300E14EF5 /* 04-我的5-2信息消息.png */,
-				91335DD41C042AD300E14EF5 /* 04-我的5-3系统管理员.png */,
-				91335DD51C042AD300E14EF5 /* 05-个人信息1-1.png */,
-				91335DD61C042AD300E14EF5 /* 05-个人信息1-2密码修改.png */,
-				91335DD71C042AD300E14EF5 /* 06-登录1-1.png */,
-				91335DD81C042AD300E14EF5 /* 06-登录1-2密码找回1.png */,
-				91335DD91C042AD300E14EF5 /* 06-登录1-2密码找回2.png */,
-				91335DDA1C042AD300E14EF5 /* 06-登录1-2密码找回3.png */,
-				91335DDB1C042AD300E14EF5 /* 06-登录1-3重设密码1.png */,
-				91335DDC1C042AD300E14EF5 /* 06-登录1-3重设密码2.png */,
-				91335DDD1C042AD300E14EF5 /* 07-注册1-1.png */,
-				91335DDE1C042AD300E14EF5 /* 07-注册1-2.png */,
-				91335DDF1C042AD300E14EF5 /* 07-注册1-3.png */,
-				91335DE01C042AD300E14EF5 /* 07-注册1-4设置密码.png */,
-				91335DE11C042AD300E14EF5 /* 08-设置1-1.png */,
-				91335DE21C042AD300E14EF5 /* 08-设置1-2意见反馈.png */,
-				91335DE31C042AD400E14EF5 /* 08-设置1-3检测版本.png */,
-				91335DE41C042AD400E14EF5 /* 08-设置1-4检测版本.png */,
-				91335DE51C042AD400E14EF5 /* 08-设置1-5关于.png */,
-				91335DE61C042AD400E14EF5 /* 08-设置1-5关于副本.png */,
-				91335DE71C042AD400E14EF5 /* 088EE417-ADE3-4886-839A-29A21E284B6D.png */,
-				91335DE81C042AD400E14EF5 /* 09A108DD-88B2-463A-9CF2-7AAE644A3326.png */,
-				91335DE91C042AD400E14EF5 /* 0E2895F3-3670-41FD-9109-45E4E9405387.png */,
-				91335DEA1C042AD400E14EF5 /* 125AC807-FDFF-460A-A24D-F8F6A53F667C.png */,
-				91335DEB1C042AD400E14EF5 /* 1F1E3BD8-0451-4F02-9815-7029B990EE8A.png */,
-				91335DEC1C042AD400E14EF5 /* 273D6004-80F7-4983-8C6F-43BD4B2D85BD.png */,
-				91335DED1C042AD400E14EF5 /* 3841BE38-C73A-4119-9E96-C17052C453D4.png */,
-				91335DEE1C042AD400E14EF5 /* 39592C73-EA8A-4134-B254-C022DBB2C499.png */,
-				91335DEF1C042AD400E14EF5 /* 4A758B63-AAFD-4BBC-99B9-D229A9329BFF.png */,
-				91335DF01C042AD400E14EF5 /* 533F3810-967A-4EFE-B757-042B2A66E74B.png */,
-				91335DF11C042AD400E14EF5 /* 56987FCD-D085-49CA-AAAE-3616B69A8314.png */,
-				91335DF21C042AD400E14EF5 /* 621686F9-57FA-42F0-888A-8638EF94DDB9.png */,
-				91335DF31C042AD400E14EF5 /* 7490C2FB-847A-4F42-A34B-747692E905DD.png */,
-				91335DF41C042AD400E14EF5 /* 89EED6B3-8059-45D6-B5BB-95E8A0365D0F.png */,
-				91335DF51C042AD400E14EF5 /* 8CE880AA-539A-43C2-A536-BB291EC9C39B.png */,
-				91335DF61C042AD400E14EF5 /* 908A354C-B215-473F-8DDA-D029A2631D1E.png */,
-				91335DF71C042AD400E14EF5 /* B2C23215-8696-400E-89E0-EDD48AD50693.png */,
-				91335DF81C042AD400E14EF5 /* B5A45B02-D02E-4F03-9FD5-3EB989B9D663.png */,
-				91335DF91C042AD400E14EF5 /* BCA16A12-7C6B-4738-8670-275DC051E37D.png */,
-				91335DFA1C042AD400E14EF5 /* BF2BEBA5-B432-4412-82CF-B99AFFB10F60.png */,
-				91335DFB1C042AD400E14EF5 /* CFA90124-BC5B-4673-8ADC-E420817DA38B.png */,
-				91335DFC1C042AD400E14EF5 /* DB5E8728-84A6-4989-BE41-05F0C61BFAD0.png */,
-				91335DFD1C042AD400E14EF5 /* DEE6A26A-AF62-47E7-A10D-E6D75CC51A88.png */,
-				91335DFE1C042AD400E14EF5 /* F94D89C9-E759-4071-AC2C-570E40AEC3CE.png */,
-				91335DFF1C042AD400E14EF5 /* homeScreen-iOS7-568h@2x.png */,
-				91335E001C042AD400E14EF5 /* homeScreen-iOS7@2x.png */,
-				91335E011C042AD400E14EF5 /* 侧边栏.png */,
-				91335E021C042AD400E14EF5 /* 首页.png */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 		91335E061C042AD400E14EF5 /* UI */ = {
@@ -1433,13 +1050,22 @@
 			path = YM;
 			sourceTree = "<group>";
 		};
+		99840CED600678CE352A0392 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4960ADF89DB3E7BCCD9F25 /* Pods-oc_lib.debug.xcconfig */,
+				0FFDC4FD9EE2C940294A9FF9 /* Pods-oc_lib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D7B7D08815EB1F2800CF5672 = {
 			isa = PBXGroup;
 			children = (
 				91335D471C042AD300E14EF5 /* oc_lib */,
 				D7B7D09615EB1F2900CF5672 /* Frameworks */,
 				D7B7D09415EB1F2900CF5672 /* Products */,
-				6B80EB843B3063422E5D28F7 /* Pods */,
+				99840CED600678CE352A0392 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1485,9 +1111,7 @@
 				D7B7D09715EB1F2900CF5672 /* UIKit.framework */,
 				D7B7D09915EB1F2900CF5672 /* Foundation.framework */,
 				D7B7D09B15EB1F2900CF5672 /* CoreGraphics.framework */,
-				BD14706D05209E813B924CF6 /* libPods-PMS.a */,
-				B7D598FCA957FD86C85AB4D8 /* libPods-SmartWPK.a */,
-				85C6C593D0EBD0666FF9C4E2 /* libPods-oc_lib.a */,
+				84F9654B519CB0DD5AB20F96 /* libPods-oc_lib.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1499,13 +1123,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7B7D0AB15EB1F2900CF5672 /* Build configuration list for PBXNativeTarget "oc_lib" */;
 			buildPhases = (
-				68AC5719AA361B002B671C57 /* Check Pods Manifest.lock */,
+				E032EE16261519CF5F6552BA /* [CP] Check Pods Manifest.lock */,
 				D7B7D09015EB1F2900CF5672 /* Frameworks */,
 				D7B7D08F15EB1F2900CF5672 /* Sources */,
 				D7B7D09115EB1F2900CF5672 /* Resources */,
 				293911CE18114A6900FE7684 /* ShellScript */,
-				6AC99B1F23B03C650F24DD82 /* Copy Pods Resources */,
-				624DA8CC8A4CC5F9E297CB9A /* Embed Pods Frameworks */,
+				E1C91B86A39D1BB8DCF63CDB /* [CP] Embed Pods Frameworks */,
+				2871769E4F508CACA5C14D7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1522,10 +1146,10 @@
 		D7B7D08A15EB1F2800CF5672 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					D7B7D09215EB1F2900CF5672 = {
-						DevelopmentTeam = V4Q5CVEM8S;
+						DevelopmentTeam = USB9SBRN6P;
 					};
 				};
 			};
@@ -1552,164 +1176,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91335F971C042AD400E14EF5 /* 首页.png in Resources */,
-				91335F961C042AD400E14EF5 /* 侧边栏.png in Resources */,
-				91335F3F1C042AD400E14EF5 /* 03-我的2-3选片.png in Resources */,
-				91335F7E1C042AD400E14EF5 /* 0E2895F3-3670-41FD-9109-45E4E9405387.png in Resources */,
-				91335F661C042AD400E14EF5 /* 04-我的4-4影集大图.png in Resources */,
 				91335FDD1C042AD400E14EF5 /* MJRefresh.bundle in Resources */,
-				91335F601C042AD400E14EF5 /* 04-我的4-1影集.png in Resources */,
-				91335F321C042AD400E14EF5 /* 02-优惠1-2详情.png in Resources */,
-				91335F7F1C042AD400E14EF5 /* 125AC807-FDFF-460A-A24D-F8F6A53F667C.png in Resources */,
-				91335F281C042AD400E14EF5 /* 01-首页2-1样片详情.png in Resources */,
-				91335F221C042AD400E14EF5 /* 01-首页1-1默认1.png in Resources */,
-				91335F5C1C042AD400E14EF5 /* 04-我的2-9取片.png in Resources */,
 				91335F1E1C042AD400E14EF5 /* Images.xcassets in Resources */,
-				91335F761C042AD400E14EF5 /* 08-设置1-1.png in Resources */,
-				91335F771C042AD400E14EF5 /* 08-设置1-2意见反馈.png in Resources */,
 				91335FDB1C042AD400E14EF5 /* MessageAlertView.xib in Resources */,
-				91335F711C042AD400E14EF5 /* 06-登录1-3重设密码2.png in Resources */,
-				91335F821C042AD400E14EF5 /* 3841BE38-C73A-4119-9E96-C17052C453D4.png in Resources */,
-				91335F561C042AD400E14EF5 /* 04-我的2-5等待选片.png in Resources */,
-				91335F911C042AD400E14EF5 /* DB5E8728-84A6-4989-BE41-05F0C61BFAD0.png in Resources */,
-				91335F261C042AD400E14EF5 /* 01-首页1-3选城市.png in Resources */,
-				91335F7B1C042AD400E14EF5 /* 08-设置1-5关于副本.png in Resources */,
-				91335F891C042AD400E14EF5 /* 89EED6B3-8059-45D6-B5BB-95E8A0365D0F.png in Resources */,
 				91335FC91C042AD400E14EF5 /* checkmark@2x.png in Resources */,
 				91335FB01C042AD400E14EF5 /* PromptView.xib in Resources */,
-				91335F3D1C042AD400E14EF5 /* 03-我的2-1订单.png in Resources */,
-				91335F491C042AD400E14EF5 /* 03-我的4-1影集.png in Resources */,
-				91335F351C042AD400E14EF5 /* 02-优惠2-2门店详情.png in Resources */,
-				91335F2F1C042AD400E14EF5 /* 01-首页4-1客服留言.png in Resources */,
-				91335F701C042AD400E14EF5 /* 06-登录1-3重设密码1.png in Resources */,
-				91335F301C042AD400E14EF5 /* 01-首页4-2促销详情.png in Resources */,
-				91335F931C042AD400E14EF5 /* F94D89C9-E759-4071-AC2C-570E40AEC3CE.png in Resources */,
-				91335F451C042AD400E14EF5 /* 03-我的2-9取件.png in Resources */,
 				91335FBD1C042AD400E14EF5 /* AlipaySDK.bundle in Resources */,
-				91335F2A1C042AD400E14EF5 /* 01-首页2-3摄影师首页.png in Resources */,
-				91335F6B1C042AD400E14EF5 /* 05-个人信息1-2密码修改.png in Resources */,
-				91335F5A1C042AD400E14EF5 /* 04-我的2-8印刷.png in Resources */,
-				91335F291C042AD400E14EF5 /* 01-首页2-2作品详情滑动.png in Resources */,
 				91335FA81C042AD400E14EF5 /* ITTMaskActivityView.xib in Resources */,
 				91335FED1C042AD400E14EF5 /* WeiboSDK.bundle in Resources */,
-				91335F6A1C042AD400E14EF5 /* 05-个人信息1-1.png in Resources */,
-				91335F501C042AD400E14EF5 /* 04-我的2-1订单.png in Resources */,
-				91335F7A1C042AD400E14EF5 /* 08-设置1-5关于.png in Resources */,
-				91335F721C042AD400E14EF5 /* 07-注册1-1.png in Resources */,
-				91335F901C042AD400E14EF5 /* CFA90124-BC5B-4673-8ADC-E420817DA38B.png in Resources */,
-				91335F431C042AD400E14EF5 /* 03-我的2-7精修确认.png in Resources */,
-				91335F231C042AD400E14EF5 /* 01-首页1-2侧边栏.png in Resources */,
-				91335F481C042AD400E14EF5 /* 03-我的3-3我的片券-2.png in Resources */,
-				91335F1A1C042AD400E14EF5 /* oc_lib-Info.plist in Resources */,
-				91335F731C042AD400E14EF5 /* 07-注册1-2.png in Resources */,
-				91335F691C042AD400E14EF5 /* 04-我的5-3系统管理员.png in Resources */,
-				91335F6E1C042AD400E14EF5 /* 06-登录1-2密码找回2.png in Resources */,
 				04A8FDCF19B46048003B8036 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
-				91335F5E1C042AD400E14EF5 /* 04-我的3-2我的片券.png in Resources */,
-				91335F341C042AD400E14EF5 /* 02-优惠2-1门店列表.png in Resources */,
 				91335F1C1C042AD400E14EF5 /* PushConfig.plist in Resources */,
 				91335FAE1C042AD400E14EF5 /* PhonesActionSheet.xib in Resources */,
-				91335F331C042AD400E14EF5 /* 02-优惠1-3详情长图.png in Resources */,
 				91335FCA1C042AD400E14EF5 /* checkmark@3x.png in Resources */,
-				91335F371C042AD400E14EF5 /* 02-优惠2-4门店地图.png in Resources */,
 				91335F981C042AD400E14EF5 /* SuggestedColors.plist in Resources */,
 				91335F0F1C042AD400E14EF5 /* LaunchScreen.xib in Resources */,
 				91335FC81C042AD400E14EF5 /* checkmark.png in Resources */,
-				91335F251C042AD400E14EF5 /* 01-首页1-3退出登录.png in Resources */,
 				91335FD91C042AD400E14EF5 /* happy_white@2x.png in Resources */,
-				91335F6D1C042AD400E14EF5 /* 06-登录1-2密码找回1.png in Resources */,
-				91335F7C1C042AD400E14EF5 /* 088EE417-ADE3-4886-839A-29A21E284B6D.png in Resources */,
-				91335F531C042AD400E14EF5 /* 04-我的2-2选服装.png in Resources */,
-				91335F411C042AD400E14EF5 /* 03-我的2-5选片放大.png in Resources */,
-				91335F741C042AD400E14EF5 /* 07-注册1-3.png in Resources */,
-				91335F311C042AD400E14EF5 /* 02-优惠1-1列表.png in Resources */,
 				91335FCC1C042AD400E14EF5 /* exclamationMark@2x.png in Resources */,
-				91335F571C042AD400E14EF5 /* 04-我的2-6预约看精修.png in Resources */,
-				91335F8B1C042AD400E14EF5 /* 908A354C-B215-473F-8DDA-D029A2631D1E.png in Resources */,
-				91335F401C042AD400E14EF5 /* 03-我的2-4选片放大.png in Resources */,
-				91335F541C042AD400E14EF5 /* 04-我的2-3等待拍摄.png in Resources */,
-				91335F751C042AD400E14EF5 /* 07-注册1-4设置密码.png in Resources */,
-				91335F4A1C042AD400E14EF5 /* 03-我的4-2影集详情.png in Resources */,
-				91335F3E1C042AD400E14EF5 /* 03-我的2-2拍照.png in Resources */,
-				91335F5F1C042AD400E14EF5 /* 04-我的3-3我的片券.png in Resources */,
 				91335FC41C042AD400E14EF5 /* mapapi.bundle in Resources */,
-				91335F3A1C042AD400E14EF5 /* 03-外景1-1大图模式.png in Resources */,
-				91335F4F1C042AD400E14EF5 /* 04-我的2-10订单完成.png in Resources */,
-				91335F611C042AD400E14EF5 /* 04-我的4-2影集授权.png in Resources */,
-				91335F4E1C042AD400E14EF5 /* 04-我的1-2默认滑动.png in Resources */,
-				91335F781C042AD400E14EF5 /* 08-设置1-3检测版本.png in Resources */,
 				91335FCB1C042AD400E14EF5 /* exclamationMark.png in Resources */,
-				91335F471C042AD400E14EF5 /* 03-我的3-2我的片券.png in Resources */,
-				91335F6F1C042AD400E14EF5 /* 06-登录1-2密码找回3.png in Resources */,
-				91335F4C1C042AD400E14EF5 /* 03-我的4-4影集大图.png in Resources */,
-				91335F5B1C042AD400E14EF5 /* 04-我的2-8印刷确认.png in Resources */,
-				91335F881C042AD400E14EF5 /* 7490C2FB-847A-4F42-A34B-747692E905DD.png in Resources */,
-				91335F851C042AD400E14EF5 /* 533F3810-967A-4EFE-B757-042B2A66E74B.png in Resources */,
-				91335F361C042AD400E14EF5 /* 02-优惠2-3门店拨打电话.png in Resources */,
-				91335F811C042AD400E14EF5 /* 273D6004-80F7-4983-8C6F-43BD4B2D85BD.png in Resources */,
-				91335F591C042AD400E14EF5 /* 04-我的2-7精修确认.png in Resources */,
-				91335F3C1C042AD400E14EF5 /* 03-我的1-1默认.png in Resources */,
 				91335FB41C042AD400E14EF5 /* ShareView.xib in Resources */,
 				91335FA01C042AD400E14EF5 /* AppActionSheet.xib in Resources */,
-				91335F2B1C042AD400E14EF5 /* 01-首页3-1照片详情.png in Resources */,
-				91335F8D1C042AD400E14EF5 /* B5A45B02-D02E-4F03-9FD5-3EB989B9D663.png in Resources */,
-				91335F651C042AD400E14EF5 /* 04-我的4-3影集授权弹框2.png in Resources */,
-				91335F421C042AD400E14EF5 /* 03-我的2-6精修意见.png in Resources */,
-				91335F621C042AD400E14EF5 /* 04-我的4-2影集详情.png in Resources */,
-				91335F4B1C042AD400E14EF5 /* 03-我的4-3影集大图.png in Resources */,
-				91335F1F1C042AD400E14EF5 /* 00启动页1136.png in Resources */,
-				91335F8E1C042AD400E14EF5 /* BCA16A12-7C6B-4738-8670-275DC051E37D.png in Resources */,
-				91335F3B1C042AD400E14EF5 /* 03-外景1-2瀑布流模式.png in Resources */,
 				91335FAC1C042AD400E14EF5 /* NavigationBarView.xib in Resources */,
-				91335F2D1C042AD400E14EF5 /* 01-首页3-3照片分享.png in Resources */,
-				91335F921C042AD400E14EF5 /* DEE6A26A-AF62-47E7-A10D-E6D75CC51A88.png in Resources */,
-				91335F521C042AD400E14EF5 /* 04-我的2-2拍照.png in Resources */,
-				91335F391C042AD400E14EF5 /* 02-优惠3-1确认订单.png in Resources */,
-				91335F631C042AD400E14EF5 /* 04-我的4-3影集大图.png in Resources */,
-				91335F671C042AD400E14EF5 /* 04-我的5-1信息评论.png in Resources */,
-				91335F801C042AD400E14EF5 /* 1F1E3BD8-0451-4F02-9815-7029B990EE8A.png in Resources */,
-				91335F8A1C042AD400E14EF5 /* 8CE880AA-539A-43C2-A536-BB291EC9C39B.png in Resources */,
-				91335F4D1C042AD400E14EF5 /* 04-我的1-1默认.png in Resources */,
 				91335F041C042AD400E14EF5 /* InfoPlist.strings in Resources */,
-				91335F641C042AD400E14EF5 /* 04-我的4-3影集授权弹框1.png in Resources */,
-				91335F381C042AD400E14EF5 /* 02-优惠2-5其他分店.png in Resources */,
-				91335F201C042AD400E14EF5 /* 00启动页960.png in Resources */,
-				91335F441C042AD400E14EF5 /* 03-我的2-8印刷确认.png in Resources */,
-				91335F271C042AD400E14EF5 /* 01-首页2-1作品详情.png in Resources */,
-				91335F551C042AD400E14EF5 /* 04-我的2-4预约选片.png in Resources */,
-				91335F581C042AD400E14EF5 /* 04-我的2-7等待看精修.png in Resources */,
-				91335F5D1C042AD400E14EF5 /* 04-我的3-1我的片券.png in Resources */,
-				91335F951C042AD400E14EF5 /* homeScreen-iOS7@2x.png in Resources */,
 				91335FA21C042AD400E14EF5 /* AppDatePicker.xib in Resources */,
-				91335F861C042AD400E14EF5 /* 56987FCD-D085-49CA-AAAE-3616B69A8314.png in Resources */,
-				91335F841C042AD400E14EF5 /* 4A758B63-AAFD-4BBC-99B9-D229A9329BFF.png in Resources */,
-				91335F511C042AD400E14EF5 /* 04-我的2-1预约选服装.png in Resources */,
-				91335F681C042AD400E14EF5 /* 04-我的5-2信息消息.png in Resources */,
 				91335FCD1C042AD400E14EF5 /* exclamationMark@3x.png in Resources */,
-				91335F101C042AD400E14EF5 /* main.js in Resources */,
-				91335F2E1C042AD400E14EF5 /* 01-首页4-1促销信息.png in Resources */,
-				91335F211C042AD400E14EF5 /* 01-首页1-1默认.png in Resources */,
-				91335F2C1C042AD400E14EF5 /* 01-首页3-2照片评论.png in Resources */,
-				91335F461C042AD400E14EF5 /* 03-我的3-1我的片券.png in Resources */,
-				91335F241C042AD400E14EF5 /* 01-首页1-2侧边栏1.png in Resources */,
-				91335F941C042AD400E14EF5 /* homeScreen-iOS7-568h@2x.png in Resources */,
-				91335F8C1C042AD400E14EF5 /* B2C23215-8696-400E-89E0-EDD48AD50693.png in Resources */,
-				91335F871C042AD400E14EF5 /* 621686F9-57FA-42F0-888A-8638EF94DDB9.png in Resources */,
 				91335FB91C042AD400E14EF5 /* TextSectionView.xib in Resources */,
-				91335F7D1C042AD400E14EF5 /* 09A108DD-88B2-463A-9CF2-7AAE644A3326.png in Resources */,
 				91335F1D1C042AD400E14EF5 /* readme.txt in Resources */,
-				91335F8F1C042AD400E14EF5 /* BF2BEBA5-B432-4412-82CF-B99AFFB10F60.png in Resources */,
 				91335FDC1C042AD400E14EF5 /* sad@2x.png in Resources */,
-				91335F791C042AD400E14EF5 /* 08-设置1-4检测版本.png in Resources */,
 				91335F1B1C042AD400E14EF5 /* pms_config.plist in Resources */,
-				91335F831C042AD400E14EF5 /* 39592C73-EA8A-4134-B254-C022DBB2C499.png in Resources */,
-				91335F6C1C042AD400E14EF5 /* 06-登录1-1.png in Resources */,
+				911BEC8D1E754616002134F8 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2871769E4F508CACA5C14D7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oc_lib/Pods-oc_lib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		293911CE18114A6900FE7684 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1723,49 +1240,34 @@
 			shellPath = /bin/sh;
 			shellScript = "";
 		};
-		624DA8CC8A4CC5F9E297CB9A /* Embed Pods Frameworks */ = {
+		E032EE16261519CF5F6552BA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C91B86A39D1BB8DCF63CDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oc_lib/Pods-oc_lib-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68AC5719AA361B002B671C57 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6AC99B1F23B03C650F24DD82 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oc_lib/Pods-oc_lib-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1951,7 +1453,7 @@
 		};
 		D7B7D0AC15EB1F2900CF5672 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E4DF22CE35550749EDE3F8 /* Pods-oc_lib.debug.xcconfig */;
+			baseConfigurationReference = 9C4960ADF89DB3E7BCCD9F25 /* Pods-oc_lib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1959,6 +1461,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: jing fan (549K9DE5MZ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jing fan (549K9DE5MZ)";
+				DEVELOPMENT_TEAM = USB9SBRN6P;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2008,7 +1511,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qcdn.smartwpk;
 				PRODUCT_NAME = oc_lib;
-				PROVISIONING_PROFILE = "16a6a834-a194-4c8d-92ab-f53b0843c8f8";
+				PROVISIONING_PROFILE = "d2dad771-d67d-45fc-9980-7269b2508498";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7s $(ARCHS_STANDARD)";
@@ -2019,7 +1523,7 @@
 		};
 		D7B7D0AD15EB1F2900CF5672 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6FBEEDC4328F05D3E3AEE8B /* Pods-oc_lib.release.xcconfig */;
+			baseConfigurationReference = 0FFDC4FD9EE2C940294A9FF9 /* Pods-oc_lib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

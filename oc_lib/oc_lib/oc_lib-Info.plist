@@ -102,5 +102,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIMainStoryboardFile</key>
+	<string>Storyboard</string>
 </dict>
 </plist>

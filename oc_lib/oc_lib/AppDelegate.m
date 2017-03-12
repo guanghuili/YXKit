@@ -41,10 +41,10 @@
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
     
-    [self registerJPushWithOptions:launchOptions];
+//    [self registerJPushWithOptions:launchOptions];
 
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    
 //    _slideMenuVC  = [[SlideMenuVC alloc] init];
 //    
 //    self.mMDrawerController = [[MMDrawerController alloc]
@@ -75,15 +75,11 @@
 //    _rootNavigaitonController = [[SloppySwiperNavigationController alloc] initWithRootViewController:self.mMDrawerController];
 //    _rootNavigaitonController.navigationBarHidden = YES;
 //
-    self.window.rootViewController = [[UIViewController alloc] init];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
-//    [self.mMDrawerController setMaximumLeftDrawerWidth:252];
-//    [self pushToCityListVCIfNeed];
-//    [self handleRemoteNotificaiton:launchOptions];
-    
-    
+//    self.window.rootViewController = [[UIViewController alloc] init];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+//    
+
     
     POSTResponseObject(self.window, [Weather class], @"http://www.weather.com.cn/data/sk/101010100.html",nil, ^(Weather* object) {
         
@@ -91,13 +87,7 @@
         
     }, nil);
 
-  
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"main.js" ofType:@""];
-//    
-//    [JPEngine evaluateScriptWithPath:path];
-//    
-//    
-//    [self changeBackground];
+
    
 
     return YES;

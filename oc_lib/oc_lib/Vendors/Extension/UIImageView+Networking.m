@@ -58,20 +58,20 @@
         [hudView stopAnimating];
         
     }];
-    
-    [self.af_imageRequestOperation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead) {
-        
-        float receivedSizeF = totalBytesRead;
-        float expectedSizeF = totalBytesExpectedToRead;
-        float progressSizeF = receivedSizeF / expectedSizeF;
-        
-        [hudView setProgress:progressSizeF];
-        
-        if (block) {
-            block(progressSizeF);
-        }
-        
-    }];
+//    
+//    [self.af_imageRequestOperation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead) {
+//        
+//        float receivedSizeF = totalBytesRead;
+//        float expectedSizeF = totalBytesExpectedToRead;
+//        float progressSizeF = receivedSizeF / expectedSizeF;
+//        
+//        [hudView setProgress:progressSizeF];
+//        
+//        if (block) {
+//            block(progressSizeF);
+//        }
+//        
+//    }];
   
     
 }

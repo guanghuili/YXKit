@@ -23,11 +23,12 @@ static id instance;
         instance = [[self alloc] initWithBaseURL:[NSURL URLWithString:Host_Url]];
         [instance securityPolicy].allowInvalidCertificates = YES;
 
-        
+        AFJSONResponseSerializer *jsonSerializer = [AFJSONResponseSerializer serializer];
         //解决AFNetworing bug
-        [instance setResponseSerializer:[AFJSONResponseSerializer serializer]];
-        [instance responseSerializer].acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];
+        jsonSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];
 
+        [instance setResponseSerializer:jsonSerializer];
+       
         //JSON parameter
        // [instance setRequestSerializer:[AFHTTPRequestSerializer serializer]];
 
@@ -95,17 +96,17 @@ static id instance;
         //置空
         va_end(params);
         
-        //这里循环 将看到所有参数
-        for (AFHTTPRequestOperation *operation in self.operationQueue.operations) {
-            
-            if([argsArray containsObject:operation.identifier]) {
-                
-                [operation cancel];
-                
-                DDLogWarn(@"AFHTTPRequestOperation cancel");
-                
-            }
-        }
+//        //这里循环 将看到所有参数
+//        for (AFHTTPRequestOperation *operation in self.operationQueue.operations) {
+//            
+//            if([argsArray containsObject:operation.identifier]) {
+//                
+//                [operation cancel];
+//                
+//                DDLogWarn(@"AFHTTPRequestOperation cancel");
+//                
+//            }
+//        }
      
     }
   
@@ -217,37 +218,27 @@ static id instance;
     
     Cancel_Request(URLString,nil);
     
-    AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
-        
-        success(responseObject);
-        
-        [self hidenIndicatorInView:inView];
-        
-        DDLogWarn(@"%@ data->>>>>>>%@",URLString,responseObject);
-        DDLogWarn(@"%@ msg->>>>>>>%@",URLString,responseObject[@"msg"]);
-        
-    } failure:^(AFHTTPRequestOperation * _Nonnull operation, NSError * _Nonnull error) {
-        
-        [self hidenIndicatorInView:inView];
-        
-        
-        if(failure)
-            failure(error);
-        
-        
-        //判断是否为用户取消
-        if(![operation isCancelled]) {
-            [BDKNotifyHUD showCryingHUDWithText:@"网络好想有问题"];
+   NSURLSessionDataTask *task = [self dataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error)
+    {
+          [self hidenIndicatorInView:inView];
+       
+        if(error)
+        {
+            if(failure)
+                failure(error);
+            
+        }else
+        {
+            
+            success(responseObject);
+            
+            
         }
-        
-        DDLogWarn(@"%@ error->>>>>>>%@",URLString,error);
-        
         
     }];
     
-    //cancelReqeust 会根据此URLString 取消请求
-    [operation setIdentifier:URLString];
-    [self.operationQueue addOperation:operation];
+    [task resume];
+
     
     
 }
@@ -496,64 +487,5 @@ static id instance;
     
 }
 
-
-
-
--(void)ResposneImage:(UIView *)inView url:(NSString *)URLString success:(void (^)(UIImage *))success progress:(void (^)(float))progress failure:(void (^)(NSError *))failure {
-    
-    [self cancelRequest:URLString,nil];
-    
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URLString]];
-    [request addValue:@"image/*" forHTTPHeaderField:@"Accept"];
-    
-    UIImage *cachedImage = [[UIImageView sharedImageCache] cachedImageForRequest:request];
-    if (cachedImage) {
-        
-        success(cachedImage);
-        
-    }else{
-        
-        AFHTTPRequestOperation *af_imageRequestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-        af_imageRequestOperation.responseSerializer = [AFImageResponseSerializer serializer];
-        
-        [af_imageRequestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-            
-            
-            success(responseObject);
-            
-            //cacheImage
-            [[UIImageView sharedImageCache] cacheImage:responseObject forRequest:request];
-            
-        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-            
-            if(failure)
-                failure(error);
-            
-        }];
-        
-        
-        if (progress) {
-            
-            [af_imageRequestOperation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead) {
-                
-                
-                float receivedSizeF = totalBytesRead;
-                float expectedSizeF = totalBytesExpectedToRead;
-                float progressSizeF = receivedSizeF / expectedSizeF;
-                
-                if (progress) {
-                    progress(progressSizeF);
-                }
-            }];
-            
-        }
-        
-        [af_imageRequestOperation setIdentifier:URLString];
-        [self.operationQueue addOperation:af_imageRequestOperation];
-        
-    }
-    
-    
-}
 
 @end

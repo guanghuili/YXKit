@@ -19,7 +19,7 @@
 /**
  *  http请求者 所有的网络请求应该通过它发送
  */
-@interface HTTPWorker : AFHTTPRequestOperationManager
+@interface HTTPWorker : AFHTTPSessionManager
 
 
 SINGLETON_H_ARC(HTTPWorker)

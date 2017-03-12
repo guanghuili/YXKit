@@ -20,13 +20,13 @@
        
   
         //向微信注册 appid
-        [WXApi registerApp:WXAppid];
-        [WeiboSDK enableDebugMode:YES];
-        [WeiboSDK registerApp:SINA_APPKEY];
-        [MobClick startWithAppkey:UMENG_KEY reportPolicy:REALTIME channelId:UMENG_CHANNEL_ID];
+//        [WXApi registerApp:WXAppid];
+//        [WeiboSDK enableDebugMode:YES];
+//        [WeiboSDK registerApp:SINA_APPKEY];
+//        [MobClick startWithAppkey:UMENG_KEY reportPolicy:REALTIME channelId:UMENG_CHANNEL_ID];
       //  [self registerJPushWithOptions:launchOptions];
-        [APService setBadge:0];
-        [JPEngine startEngine];
+//        [APService setBadge:0];
+//     /   [JPEngine startEngine];
         
          [DDLog addLogger:[DDTTYLogger sharedInstance]];
         [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
@@ -36,8 +36,8 @@
                                                  forFlag:DDLogFlagInfo];
         
         ////蒲公英启动更新检查SDK
-        [[PgyUpdateManager sharedPgyManager] startManagerWithAppId:@""];
-        [[PgyUpdateManager sharedPgyManager] checkUpdate];
+//        [[PgyUpdateManager sharedPgyManager] startManagerWithAppId:@""];
+//        [[PgyUpdateManager sharedPgyManager] checkUpdate];
     
     });
 }

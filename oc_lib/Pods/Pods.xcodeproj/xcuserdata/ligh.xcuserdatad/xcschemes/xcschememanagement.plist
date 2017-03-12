@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JSPatch.xcscheme</key>
+		<key>JHChainableAnimations.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,12 +24,32 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OMGHTTPURLRQ.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-oc_lib.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PromiseKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,37 +62,57 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>128CE8CA8FD569542DF3F55123E55B98</key>
+		<key>1A9298B32F31A61F3742650B19EE27BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>12E2BC28C62976C425F4B71C2723F0B1</key>
+		<key>1D83F41F4B66025492CAC40CEA328CD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
+		<key>23E5940AE031597C9ACCEEC373407A61</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B23B3D15FFC0FC9893968F478086D58D</key>
+		<key>294F2BB04E915CC7084C1623291C3444</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B6A37AA4B8CFD62CECFAD62602989FD5</key>
+		<key>2C6F6DFE57258637A8EE6D8F3061EF51</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD0284E1C60A4D1F634BEA0E438D6794</key>
+		<key>2D9F1F6DC84375D205E1FC8ACFF9521D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD1D53461DE538B7C8DFE0B76D857587</key>
+		<key>2EAC3844111C860BD85F536BF4BC26C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>390A89528A7D21B5FF9BCF968BF947B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53BA2F9F0396EFB19F781D0A13A7F544</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
